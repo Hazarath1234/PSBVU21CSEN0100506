@@ -1,0 +1,36 @@
+#include <stdio.h>
+int main()
+{
+	int a,b,c,d,e,f,g,ch;
+	printf("enter the value a and b");
+	scanf("%d%d",&a,&b);
+	printf("enter your choice");
+	scanf("%d &ch");
+	switch(ch)
+	{
+		addition:
+			case 1:
+				c=a+b;
+				printf("%d",c);
+				break;
+				subtraction:
+					case 2:
+						d=a-b;
+						printf("%d",d);
+						break;
+						multiplication:
+							case 3:
+								e=a*b;
+								printf("%d",e);
+								break;
+								division:
+									case 4:
+										f=a/b;
+										printf("%.lf",f);
+										break;
+										case 5:
+											goto addition;
+											break;
+											printf("enter the any choice");
+	}
+}
