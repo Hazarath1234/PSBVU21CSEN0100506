@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>
+void power();
+void main()
+{
+    power();
+}
+void power()
+{
+    int base,exp,result;
+    printf("enter the base and exp");
+    scanf("%d%d",&base,&exp);
+    result=pow(base,exp);
+    printf("enter the power %d",result);
+}
