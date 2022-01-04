@@ -1,0 +1,23 @@
+#include <stdio.h>
+int even(int a, int i)
+{
+    for(i=0;i<=a;i+=2)
+    {
+        printf("%d ", i);
+    }
+}
+int odd(int a, int i)
+{
+    for(i=1;i<=a;i+=2)
+    {
+        printf("%d ", i);
+    }
+}
+int main()
+{
+    int a,i;
+    printf("enter the number ");
+    scanf("%d",&a);
+     even(a,i);
+    odd(a,i);
+}
