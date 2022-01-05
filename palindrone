@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+	int n,a,b,c,i;
+	printf("enter the value of n");
+	scanf("%d",&n);
+	a=1;
+	b=3;
+	c=4;
+	for(i=1;i<=n;i++)
+	{
+		printf("%d \t",c);
+		a=b;
+		b=c;
+		c=a+b;
+	}
+}
