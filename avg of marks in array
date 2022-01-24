@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+    int marks[5];
+    printf("enter the 5 subjects marks");
+    printf("enter the marks telugu");
+    scanf("\n %d",&marks[0]);
+    printf("enter the marks hindi");
+    scanf("\n %d",&marks[1]);
+    printf("enter the marks english");
+    scanf("\n %d",&marks[2]);
+    printf("enter the marks maths");
+    scanf("\n %d",&marks[3]);
+    printf("enter the marks science");
+    scanf("\n %d",&marks[4]);
+}
