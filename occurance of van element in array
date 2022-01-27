@@ -1,0 +1,24 @@
+// occurence of an element
+#include <stdio.h>
+int main(){
+    int arr[50], ele, count, n, i; // arr is array, ele is the element we want to search, count for counting the occurence, n for loop
+    printf("Enter the size : ");
+    scanf("%d",&n);
+    printf("Enter elements : "); // Take inputs 1 2 2 3 4 4
+    for (i=0;i<n;i++)
+    {
+        scanf("%d",&arr[i]);
+    }
+    printf("Enter the element for finding its occurence : ");
+    scanf("%d",&ele);
+    count = 0; // default count is 0
+    for (i=0;i<n;i++)
+    {
+        // finding occurence
+        if (arr[i]==ele)
+        {
+            count++;
+        }
+    }
+    printf("occurence of %d is %d time(s)",ele,count);
+}
