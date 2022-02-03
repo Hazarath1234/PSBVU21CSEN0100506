@@ -1,0 +1,19 @@
+// adding two strings or concatination using strcat()
+#include <stdio.h>
+#include <string.h>
+int main ()
+{
+  char a[20], b[20];
+  printf ("enter a string\n");
+  gets (a);
+  printf ("string 1 ");
+  puts (a);
+  printf ("enter a string\n");
+  gets (b);
+  printf ("string 2 ");
+  puts(b);
+  strcat (a, b);
+  printf ("concated string  \n");
+  puts (a);
+  printf("%s",b);
+}
