@@ -1,0 +1,22 @@
+// using strcpy()
+#include <stdio.h>
+#include <string.h>
+int main ()
+{
+  char a[10], b[10];
+  printf ("enter a string\n");
+  gets (a);
+  printf ("string 1 ");
+  puts (a);
+  printf ("enter a string\n");
+  gets (b);
+  printf ("string 2 ");
+  puts(b);
+  strcpy (a, b);
+  printf ("string 1 ");
+  puts (a);
+  printf ("string 2 ");
+  puts (b);
+
+
+}
