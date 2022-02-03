@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <string.h>
+
+// using gets( and puts()
+int main()
+{ char a[10];
+ int x;
+printf("enter a string\n");
+gets(a);
+printf("given string is ");
+puts(a);
+}
