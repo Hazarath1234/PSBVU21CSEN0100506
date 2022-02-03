@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <string.h>
+
+// length of a string using gets() and puts()
+int main()
+{ char a[10];
+ int x;
+printf("enter a string\n");
+gets(a);
+x=strlen(a);
+printf("lenght of given string is %d",x);
+
+}
