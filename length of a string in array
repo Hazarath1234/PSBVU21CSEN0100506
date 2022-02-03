@@ -1,0 +1,11 @@
+// to find the length of a string
+int main()
+{ char a[10];
+int b;
+printf("enter a string\n");
+scanf("%s",a);
+b=strlen(a);
+   printf("the length of the inputed string is= %d",b); 
+
+    return 0;
+}
