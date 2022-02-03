@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <ctype.h>
+int main()
+{
+    int i, j=0;
+    char str[20],ch;
+    printf("Enter String - ");
+    scanf("%s",str);
+    while (str[j]){
+        ch = str[j];
+        putchar(toupper(ch));
+        j++;
+    }
+}
