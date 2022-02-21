@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+	int year,price;
+	char name[10],modle[20];
+	FILE*fp;
+	fp=fopen("D:\ car.txt", "r");
+	fscanf(fp,"%d",&year);
+	printf(" the is %d",year);
+	fp=fopen("D:\ car1.txt","r");
+	fprintf(fp,"%d",year);
+	fclose(fp);
+}
